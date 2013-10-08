@@ -1,7 +1,5 @@
 # -*- mode: ruby; encoding: utf-8 -*-
 
-require "bundler/gem_tasks"
-
 namespace "bundler" do
   require "bundler/gem_tasks"
 end
