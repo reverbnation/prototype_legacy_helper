@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.version       = PrototypeLegacyHelper::VERSION
   spec.authors       = ["Andrew Watts"]
   spec.email         = ["awatts@reverbnation.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Adds form_remote tag back. From https://github.com/rails/prototype_legacy_helper}
+  spec.summary       = %q{Adds form_remote tag back. From https://github.com/rails/prototype_legacy_helper}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,5 +20,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "gemfury"
   spec.add_development_dependency "rake"
 end
